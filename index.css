@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body {
+    background-image: url(https://images.deliveryhero.io/image/fd-tr/LH/rcf5-hero.jpg);
+    background-size: cover;
+    transform: translateY(0px);
+}
+
+
+.yemek1 {
+    background-color: #ff5e00de;
+    text-align: center;
+    width: 100%;
+    border-radius: 32px;
+    max-width: 1200px;
+    text-transform: uppercase;
+    z-index: 1;
+    margin-left: 18%;
+    transform: translateY(0px);
+    animation: 1s ahmet;
+}
+
+@keyframes ahmet {
+    0% {
+        transform: translateY(-500px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
+
+.yemek1 .patates {
+    margin: 15px;
+    padding: 15px;
+    width: 150px;
+}
+
+.yemek1 ul {
+    display: inline-flex;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.yemek1 ul li {
+    margin: 15px;
+    padding: 15px;
+    width: 200px;
+}
+
+.yemek1 ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.yemek1 ul li:hover {
+    transition: 0.8s;
+    background-color: rgb(124, 1, 1);
+    border-radius: 15px;
+    color: white;
+    filter: opacity(100);
+}
+
+.yemek1 .fa {
+    margin-right: 8px;
+}
+
+.anim {
+    transform: translateY(0px);
+    animation: 2s domates;
+}
+
+@keyframes domates {
+    0% {
+        transform: translateY(500px);
+    }
+
+
+    100% {
+        transform: translateY(0px);
+
+    }
+}
+
+.deneme {
+    position: relative;
+    top: 150px;
+    left: 15%;
+    width: 25%;
+    height: 500px;
+    background-color: rgba(255, 174, 0, 0.8);
+    background-position: top;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+
+.buton1 {
+    font-weight: bold;
+    border: none;
+    color: black;
+    background-color: rgba(255, 166, 0, 1);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: 3px solid rgb(124, 1, 1);
+    transition: 0.8s;
+}
+
+.buton1:hover {
+    color: black;
+    background-color: rgb(124, 1, 0.5);
+    border: 2px solid rgba(255, 166, 0, 1);
+}
+
+.arama1 {
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.metin1 {
+    font-size: xx-large;
+    position: relative;
+    top: 25px;
+}
+
+.resim1 {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 40px;
+    display: inline;
+}
+
+.deneme2 {
+    position: relative;
+    width: 25%;
+    bottom: 350px;
+    height: 500px;
+    background-color: rgba(255, 174, 0, 0.8);
+    background-position: right;
+    text-align: center;
+    border-radius: 15px;
+    float: right;
+    right: 15%;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.buton2 {
+    font-weight: bold;
+    border: none;
+    color: red;
+    font-size: 30px;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px;
+    cursor: pointer;
+    display: inline-flex;
+    display: contents;
+}
+
+.buton2:hover {
+    color: black;
+}
+
+.arama2 {
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.metin2 {
+    font-size: xx-large;
+    position: relative;
+    top: 25px;
+}
+
+.resim2 {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 40px;
+}
