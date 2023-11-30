@@ -9,6 +9,7 @@ body {
     background-image: url(https://images.deliveryhero.io/image/fd-tr/LH/rcf5-hero.jpg);
     background-size: cover;
     transform: translateY(0px);
+    overflow: hidden;
 }
 
 

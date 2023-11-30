@@ -5,11 +5,42 @@
     border: 0;
 }
 
-body {
+
+.arkaplan {
     background-image: url(https://images.deliveryhero.io/image/fd-tr/LH/rcf5-hero.jpg);
     background-size: cover;
-    transform: translateY(0px);
+    width: 100%;
+    height: 105%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    animation: 3s arkaplan;
 }
+
+@keyframes arkaplan {
+    0% {
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px);
+        -o-filter: blur(0px);
+        -ms-filter: blur(0px);
+        filter: blur(0px);
+    }
+
+    100% {
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(5px);
+    }
+}
+
 
 .yemek1 {
     background-color: #ed7c31ea;
@@ -21,7 +52,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     transform: translateY(0px);
-    animation: 1s ahmt;
+    animation: 1s ahmet;
     cursor: pointer;
 }
 
@@ -96,35 +127,41 @@ body {
 
 p {
     color: #ECE3CE;
-    margin-bottom: 15px;
-    background-size: 0px;
     text-align: center;
     font-weight: bold;
 }
 
-
 .kayitbolumu {
-    background-color: white;
-    max-width: 200px;
+    max-width: 300px;
     width: 100%;
     height: 100px;
-    margin-left: 500px;
-    margin-top: 20%;
+    margin-top: 15%;
+    font-weight: bold;
 }
 
-.kayitbolumu h2 {
-    margin-top: 5px;
+.kayitbolumu p {
+    transform: translateY(25px);
+    margin-bottom: 11%;
+    background-color: #ed7c31ea;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
 
+    margin-left: 50px;
+    width: 150px;
+
+    font-weight: bold;
 }
 
 .kutucuklar {
+    transform: translateY(-20px);
+    margin-top: 15%;
     text-align: center;
     max-width: 100px;
     width: 100%;
     height: 100px;
-    margin-left: 1000px;
 
-    margin: auto;
+
 }
 
 .kutucuklar input {
@@ -134,8 +171,72 @@ p {
     text-align: center;
     border-radius: 12px;
     margin-bottom: 10%;
+    margin-right: 50px;
+    margin-left: 30px;
 }
 
 .form {
-    display: inline;
+    display: inline-flex;
+}
+
+.hepsi {
+    display: inline-flex;
+    margin-bottom: 30px;
+    background-color: #4f4a45ea;
+    margin-top: 10%;
+    margin-left: 500PX;
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    animation: 2s deneme;
+    transform: scale(1);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+@keyframes deneme {
+    0% {
+        transform: scale(.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+.gonder {
+    position: relative;
+    max-height: 50px;
+    max-width: 500px;
+    margin-left: 30px;
+    bottom: 15px;
+    width: 100px;
+    text-align: center;
+    height: 50px;
+    margin-top: 420px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.gonder:hover {
+    background-color: #A6CF98;
+}
+
+.zaten {
+    position: relative;
+    margin-top: 470px;
+    text-align: center;
+    margin: auto;
+    top: 230px;
+    right: 150px;
+    width: 550px;
+}
+
+.zaten a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
 }
