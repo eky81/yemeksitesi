@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body {
+    background-image: url(https://images.deliveryhero.io/image/fd-tr/LH/rcf5-hero.jpg);
+    background-size: cover;
+    transform: translateY(0px);
+}
+
+.yemek1 {
+    background-color: #ff5e00de;
+    text-align: center;
+    width: 100%;
+    border-radius: 32px;
+    max-width: 1500px;
+    text-transform: uppercase;
+    z-index: 1;
+    margin-left: 12%;
+    transform: translateY(0px);
+    animation: 1s ahmet;
+}
+
+@keyframes ahmet {
+    0% {
+        transform: translateY(-500px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
+
+.yemek1 .patates {
+    margin: 15px;
+    padding: 15px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.yemek1 .anasayfa {
+    margin: 15px;
+    padding: 15px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.giris {
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.yemek1 ul {
+    display: inline-flex;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.yemek1 ul li {
+    margin: 15px;
+    padding: 15px;
+    width: 200px;
+}
+
+.yemek1 ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.yemek1 ul li:hover {
+    transition: 0.8s;
+    background-color: rgba(255, 174, 0, 0.8);
+    border-radius: 15px;
+    color: white;
+    filter: opacity(100);
+}
+
+.yemek1 .fa {
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+p {
+    color: white;
+    margin-bottom: 15px;
+    background-size: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+.form {
+    text-align: center;
+    margin-top: 10%;
+    background-color: #ff5e00de;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    animation: 2s deneme;
+    transform: scale(1.5);
+}
+
+
+@keyframes deneme {
+    0% {
+        transform: scale(.5);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+
+}
+
+.kutu {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sifre {
+    top: 30px;
+    position: relative;
+    margin: auto;
+}
