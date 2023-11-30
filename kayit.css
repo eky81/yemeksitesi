@@ -21,7 +21,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     transform: translateY(0px);
-    animation: 1s ahmet;
+    animation: 1s ahmt;
     cursor: pointer;
 }
 
@@ -94,15 +94,6 @@ body {
     margin-right: 8px;
 }
 
-
-
-
-
-
-
-
-
-
 p {
     color: #ECE3CE;
     margin-bottom: 15px;
@@ -112,68 +103,39 @@ p {
 }
 
 
+.kayitbolumu {
+    background-color: white;
+    max-width: 200px;
+    width: 100%;
+    height: 100px;
+    margin-left: 500px;
+    margin-top: 20%;
+}
 
+.kayitbolumu h2 {
+    margin-top: 5px;
 
-.form {
+}
+
+.kutucuklar {
     text-align: center;
-    margin-top: 10%;
-    background-color: #4f4a45ea;
-    max-width: 300px;
-    height: 300px;
-    border-radius: 15px;
-    animation: 2s deneme;
-    transform: scale(1.5);
-}
+    max-width: 100px;
+    width: 100%;
+    height: 100px;
+    margin-left: 1000px;
 
-
-@keyframes deneme {
-    0% {
-        transform: scale(.5);
-    }
-
-    100% {
-        transform: scale(1.5);
-    }
-
-}
-
-.kutu {
-    border-radius: 5px;
-    margin-bottom: 10px;
-    width: 250px;
-    height: 30px;
-    text-align: center;
-}
-
-.sifre {
-    top: 30px;
-    position: relative;
     margin: auto;
 }
 
-
-.gir {
-    width: 60px;
-    margin-left: 10px;
-
+.kutucuklar input {
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
     text-align: center;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-family: 'Roboto Slab', serif;
-    background-color: #ECE3CE;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 50px;
+    border-radius: 12px;
+    margin-bottom: 10%;
 }
 
-.gir:active {
-    background-color: #A6CF98;
-}
-
-.sifre {
-    text-align: center;
-    color: black;
-}
-
-.sifre:hover {
-    color: #ECE3CE;
+.form {
+    display: inline;
 }

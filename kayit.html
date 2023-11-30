@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=,, initial-scale=1.0">
-    <link rel="stylesheet" href="giris.css">
+    <link rel="stylesheet" href="kayit.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="icon" href="Resimler/logo.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,26 +49,18 @@
         </ul>
         </div>
     </nav>
-    <center>
-        <div class="form">
-            <form>
-                <div class="form2">
-                    <br>
-                    <p>E-mail:</p> <input type="text" class="kutu" name="email" placeholder="e-mailinizi giriniz">
-                    <br>
-                    <p>Şifre:</p> <input type="password" class="kutu" name="password" placeholder="şifrenizi giriniz">
-                    <br>
-                    <a href="#" class="sifre">Şifremi Unuttum</a>
-                    <br>
-                    <button class="gir">Giriş</button>
-                    <br>
 
-                </div>
-            </form>
+    <div class="kayitbolumu" class="form">
+        <h2>E-mail</h2> <br>
+        <h2>Şifre</h2> <br>
+        <h2>Telefon Numarası</h2> <br>
+        <h2>Doğum Tarihi</h2>
+    </div>
 
-        </div>
-    </center>
-
-</body>
-
-</html>
+    <div class="kutucuklar">
+        <br>
+        <input type="text" name="Email" placeholder="Lütfen geçerli bir e-mail yazınız." class="kutucuk"><br>
+        <input type="password" name="password" placeholder="Lütfen şifre belirleyiniz." class="kutucuk"><br>
+        <input type="text" name="password" placeholder="(5__)-___-____" class="kutucuk"><br>
+        <input type="date" name="dogum" class="kutucuk"><br>
+    </div>
