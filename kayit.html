@@ -14,7 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&family=Roboto+Slab:wght@300&display=swap"
         rel="stylesheet">
     <title>
-        Giriş Yap</title>
+        Kayıt Ol</title>
 </head>
 
 <body>
@@ -27,7 +27,9 @@
                     <li class="anasayfa"> <i class="fa-solid fa-house"></i>
                     </li>
                 </a>
-                <li class="patates"><a href="#"><i class="fa fa-users" aria-hidden="true"></i>Turizm</a></li>
+                <a href="turizm.html">
+                    <li class="patates"><i class="fa fa-users" aria-hidden="true"></i>Turizm</li>
+                </a>
                 <li class="patates"><a href="#"><i class="fa fa-cutlery" aria-hidden="true"></i>
                         Yemek</a></li>
                 <li class="patates"><a href="#"><i class="fa fa-plane" aria-hidden="true"></i>Tatil</a></li>
@@ -64,7 +66,7 @@
             <br>
             <input type="text" name="Email" placeholder="Lütfen geçerli bir e-mail yazınız." class="kutucuk"><br>
             <input type="password" name="password" placeholder="Lütfen şifre belirleyiniz." class="kutucuk"><br>
-            <input type="text" name="password" placeholder="(5__)-___-____" class="kutucuk"><br>
+            <input type="text" name="telefon" placeholder="(5__)-___-____" class="kutucuk" pattern="\d*" required><br>
             <input type="date" name="dogum" class="kutucuk">
         </div>
         <div>
@@ -73,5 +75,4 @@
         <div class="zaten">
             <p><a href="giris.html">Zaten bir hesabın var mı?</a></p>
         </div>
-
     </div>
