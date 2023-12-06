@@ -24,6 +24,7 @@ body {
     margin-right: auto;
     transform: translateY(0px);
     animation: 1s ahmet;
+    cursor: pointer;
 }
 
 @keyframes ahmet {
@@ -45,11 +46,12 @@ body {
     cursor: pointer;
 }
 
-.giris {
-    text-align: center;
-    border-radius: 15px;
+.yemek1 .anasayfa {
+    margin: 15px;
+    padding: 15px;
+    width: 50px;
+    cursor: pointer;
 }
-
 
 .yemek1 a {
     text-decoration: none;
@@ -57,11 +59,11 @@ body {
     font-weight: bold;
 }
 
-.yemek1 .anasayfa {
-    margin: 15px;
-    padding: 15px;
-    width: 50px;
-    cursor: pointer;
+.giris {
+    text-align: center;
+    border-radius: 15px;
+
+
 }
 
 .yemek1 ul {
@@ -88,29 +90,11 @@ body {
     transition: 0.8s;
     background-color: #6C5F5B;
     border-radius: 15px;
-    color: black;
     filter: opacity(100);
 }
 
 .yemek1 .fa {
     margin-right: 8px;
-}
-
-.anim {
-    transform: translateY(0px);
-    animation: 2s domates;
-}
-
-@keyframes domates {
-    0% {
-        transform: translateY(500px);
-    }
-
-
-    100% {
-        transform: translateY(0px);
-
-    }
 }
 
 .deneme {
