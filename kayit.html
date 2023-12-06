@@ -33,7 +33,8 @@
                 <li class="patates"><a href="#"><i class="fa fa-cutlery" aria-hidden="true"></i>
                         Yemekler</a></li>
                 <li class="patates"><a href="#"><i class="fa fa-plane" aria-hidden="true"></i>Restoranlar</a></li>
-
+                <li><a href="#"><i class="fa fa-comments" aria-hidden="true"></i>
+                        Hakkımızda</a></li>
                 <a href="giris.html">
                     <li class="patates giris"><i class="fa fa-solid fa-right-to-bracket"></i>Giriş
                         Yap</i>
@@ -52,37 +53,23 @@
         </div>
     </nav>
     <div class="hepsi">
-
-        <div class="dropdown2">
-            <span>Kurumsal</span>
-            <div class="dropdown-content2">
-                <p>Kullanıcı Adı</p>
-                <input type="text">
-                <p>E-mail</p>
-                <input type="email">
-                <p>Şifre</p>
-                <input type="password">
-                <p>Şifre Tekrar</p>
-                <input type="password">
-                <p>Doğum Tarihi</p>
-                <input type="date">
-            </div>
+        <div class="kayitbolumu" class="form">
+            <p>E-mail</p> <br>
+            <p>Şifre</p> <br>
+            <p>Telefon Numarası</p> <br>
+            <p>Doğum Tarihi</p>
         </div>
-        <div class="dropdown">
-            <div class="kisisel">
-                <span>Kişisel</span>
-                <div class="dropdown-content">
-                    <p>Kullanıcı Adı</p>
-                    <input type="text">
-                    <p>E-mail</p>
-                    <input type="email">
-                    <p>Şifre</p>
-                    <input type="password">
-                    <p>Şifre Tekrar</p>
-                    <input type="password">
-                    <p>Doğum Tarihi</p>
-                    <input type="date">
-                </div>
-            </div>
-
+        <div class="kutucuklar">
+            <br>
+            <input type="text" name="Email" placeholder="Lütfen geçerli bir e-mail yazınız." class="kutucuk"><br>
+            <input type="password" name="password" placeholder="Lütfen şifre belirleyiniz." class="kutucuk"><br>
+            <input type="text" name="telefon" placeholder="(5__)-___-____" class="kutucuk" pattern="\d*" required><br>
+            <input type="date" name="dogum" class="kutucuk">
         </div>
+        <div>
+            <BUTTON CLASS="gonder">Gönder</BUTTON>
+        </div>
+        <div class="zaten">
+            <p><a href="giris.html">Zaten bir hesabın var mı?</a></p>
+        </div>
+    </div>

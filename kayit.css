@@ -125,77 +125,118 @@
     margin-right: 8px;
 }
 
-.hepsi {
-    position: block;
-    justify-content: space-evenly;
-    display: flex;
-    border: 5px solid;
-    margin: auto;
-    margin-top: 100px;
-    max-width: 300px;
-    max-height: 100px;
-    height: 40px;
-    width: 50%;
-    padding: 5px;
+p {
+    color: #ECE3CE;
     text-align: center;
+    font-weight: bold;
 }
 
-.dropdown2 {
-    position: absolute;
-    margin-right: 150px;
-
-    display: inline-block;
-    color: white;
-    background-color: red;
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-
+.kayitbolumu {
+    max-width: 300px;
+    width: 100%;
+    height: 100px;
+    margin-top: 15%;
+    font-weight: bold;
 }
 
-.dropdown-content2 {
-    display: none;
-    position: absolute;
+.kayitbolumu p {
+    transform: translateY(25px);
+    margin-bottom: 11%;
+    background-color: #ed7c31ea;
+    text-align: center;
     color: black;
-    background-color: white;
-    margin-top: 12px;
-    width: 200px;
-    height: 300px;
     border-radius: 5px;
-    left: -50px;
+
+    margin-left: 50px;
+    width: 150px;
+
+    font-weight: bold;
+}
+
+.kutucuklar {
+    transform: translateY(-20px);
+    margin-top: 15%;
+    text-align: center;
+    max-width: 100px;
+    width: 100%;
+    height: 100px;
+
 
 }
 
-.dropdown2:hover .dropdown-content2 {
-    display: block;
+.kutucuklar input {
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 10%;
+    margin-right: 50px;
+    margin-left: 30px;
 }
 
-.dropdown {
-    position: absolute;
-    margin-left: 150px;
+.form {
+    display: inline-flex;
+}
 
-    display: inline-block;
-    color: white;
-    background-color: red;
+.hepsi {
+    display: inline-flex;
+    margin-bottom: 30px;
+    background-color: #4f4a45ea;
+    margin-top: 10%;
+    margin-left: 500PX;
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    animation: 2s deneme;
+    transform: scale(1);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+@keyframes deneme {
+    0% {
+        transform: scale(.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+.gonder {
+    position: relative;
+    max-height: 50px;
+    max-width: 500px;
+    margin-left: 30px;
+    bottom: 15px;
     width: 100px;
-    height: 30px;
-    border-radius: 5px;
-
+    text-align: center;
+    height: 50px;
+    margin-top: 420px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    color: black;
-    background-color: white;
-    margin-top: 12px;
-    width: 200px;
-    height: 300px;
-    border-radius: 5px;
-    left: -50px;
-
+.gonder:hover {
+    background-color: #A6CF98;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+.zaten {
+    position: relative;
+    margin-top: 470px;
+    text-align: center;
+    margin: auto;
+    top: 230px;
+    right: 150px;
+    width: 550px;
+}
+
+.zaten a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
 }
