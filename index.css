@@ -108,9 +108,20 @@ body {
     text-align: center;
     border-radius: 15px;
     font-family: 'Montserrat Alternates', sans-serif;
+    animation: 2s menu;
+    transform: translateY(0);
 }
 
+@keyframes menu {
+    0% {
+        transform: translateY(1200px);
+    }
 
+    100% {
+        transform: translateY(0px);
+    }
+
+}
 
 .buton1 {
     font-weight: bold;
@@ -151,6 +162,7 @@ body {
     position: relative;
     top: 40px;
     display: inline;
+    border-radius: 5%;
 }
 
 .deneme2 {
@@ -165,6 +177,8 @@ body {
     float: right;
     right: 15%;
     font-family: 'Montserrat Alternates', sans-serif;
+    animation: 2s menu;
+    transform: translateY(0);
 }
 
 .buton2 {
